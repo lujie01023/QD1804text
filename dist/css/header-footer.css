@@ -50,7 +50,7 @@ header .H_left li a {
 
 header .H_right {
   float: right;
-  width: 484px;
+  width: 494px;
   padding: 9px 0; }
 
 header .H_right li {
@@ -81,7 +81,7 @@ header .H_right li:nth-child(7) i {
 header .H_right li:nth-child(7) ol {
   position: absolute;
   top: 34px;
-  right: 165px;
+  right: 225px;
   border: 1px solid #999;
   background: #fff;
   z-index: 1000;
@@ -107,6 +107,14 @@ header .H_right li:nth-child(8) i {
   background: url(../images/header_03.jpg) no-repeat; }
 
 header .H_right li a {
+  font-size: 10px;
+  color: #c2cccc; }
+
+#login1 {
+  font-size: 10px;
+  color: #c2cccc; }
+
+#login2 {
   font-size: 10px;
   color: #c2cccc; }
 
@@ -297,3 +305,95 @@ footer .F_bottom_box .F_bottom img {
   position: absolute;
   bottom: 10px;
   right: 90px; }
+
+.bigbox {
+  width: 1423px;
+  height: 4989px;
+  background: #414141;
+  z-index: 1000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px; }
+
+.admin {
+  height: 400px;
+  width: 400px;
+  z-index: 1010;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #eee;
+  background: #fff; }
+
+#registerMsg {
+  height: 460px; }
+
+.admin .adX {
+  font-size: 50px;
+  float: right;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #999; }
+
+.admin ul {
+  margin: 60px 0 0 60px; }
+
+.admin ul li {
+  float: left;
+  border-left: 1px solid #eee;
+  font-size: 20px;
+  padding: 0 20px 0 20px; }
+
+.admin ul li:nth-child(1) {
+  border-left: none; }
+
+#registerMsg ul li {
+  text-align: center;
+  margin-left: 60px; }
+
+#registerMsg ul li a {
+  color: #999; }
+
+.admin input {
+  height: 38px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 16px;
+  border-radius: 1px; }
+
+.admin .ada {
+  width: 300px;
+  height: 40px;
+  margin: 30px 0 0 50px;
+  text-align: center;
+  line-height: 40px;
+  background: #b4a078;
+  color: #fff; }
+
+.admin .adb {
+  height: 60px;
+  width: 402px;
+  background: #efefef;
+  margin-top: 59px; }
+
+.admin .adb span {
+  font-size: 20px;
+  line-height: 60px;
+  margin-left: 50px;
+  color: #999; }
+
+.admin .adb i {
+  font-size: 14px;
+  color: #999;
+  margin-left: 70px; }
+
+.admin .adb b {
+  font-size: 14px;
+  color: #999;
+  margin-left: 20px; }

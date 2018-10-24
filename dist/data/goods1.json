@@ -5,20 +5,20 @@
 			"price":"9.9元起",
 			
 			"img":"images/ss1.jpg",
-		},{
-			"Manufacturer":"海外制造商",
-			"price":"9.9元起",
-			
-			"img":"images/ss1.jpg",
-		},{
-			"Manufacturer":"海外制造商",
-			"price":"9.9元起",
 		
-			"img":"images/ss2.jpg",
-		},{
-			"Manufacturer":"海外制造商",
-			"price":"9.9元起",
+			"Manufacturer2":"海外制造商",
+			"price2":"9.9元起",
 			
-			"img":"images/ss2.jpg",
+			"img2":"images/ss1.jpg",
+		
+			"Manufacturer3":"海外制造商",
+			"price3":"9.9元起",
+		
+			"img3":"images/ss2.jpg",
+		
+			"Manufacturer4":"海外制造商",
+			"price4":"9.9元起",
+			
+			"img4":"images/ss2.jpg",
 		}]
 	

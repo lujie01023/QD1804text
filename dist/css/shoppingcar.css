@@ -1,0 +1,284 @@
+.sc_box {
+  width: 100%;
+  /*	height:500px;*/ }
+
+.sc_box .sc {
+  width: 1090px;
+  height: 100%;
+  margin: 0 auto; }
+
+.sc .sc1 {
+  height: 40px;
+  width: 1090px;
+  border: 1px solid #eee;
+  margin-top: 20px; }
+
+.sc .sc1 span {
+  color: red;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0 0  0 20px;
+  float: left; }
+
+.sc .sc1 h1 {
+  color: red;
+  font-size: 14px;
+  line-height: 40px;
+  margin: 0 0  0 20px;
+  float: left; }
+
+.sc .sc1 div {
+  border: 1px solid red;
+  height: 20px;
+  width: 80px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 20px 0 0;
+  float: right;
+  color: red;
+  text-align: center; }
+
+.sc .sc2 {
+  margin-top: 20px;
+  width: 1090px;
+  height: 40px;
+  border: 1px solid #eee;
+  background: #f5f5f5; }
+
+.sc .sc2 input {
+  margin: 13px 0 0 20px;
+  float: left; }
+
+.sc .sc2 ul {
+  float: left; }
+
+.sc .sc2 ul li {
+  float: left;
+  line-height: 40px;
+  font-size: 14px; }
+
+.sc .sc2 ul li:nth-child(1) {
+  margin-left: 10px; }
+
+.sc .sc2 ul li:nth-child(2) {
+  margin-left: 90px; }
+
+.sc .sc2 ul li:nth-child(3) {
+  margin-left: 330px; }
+
+.sc .sc2 ul li:nth-child(4) {
+  margin-left: 150px; }
+
+.sc .sc2 ul li:nth-child(5) {
+  margin-left: 160px; }
+
+.sc .sc2 ul li:nth-child(6) {
+  margin-left: 60px; }
+
+.sc .sc3 {
+  margin-top: 20px;
+  width: 1090px;
+  height: 40px;
+  border: 1px solid #eee;
+  background: #fffbf0; }
+
+.sc .sc3 .sc31 {
+  background: red;
+  font-size: 14px;
+  height: 20px;
+  margin: 10px 0 0 20px;
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  float: left; }
+
+.sc .sc3 h1 {
+  font-size: 14px;
+  float: left;
+  line-height: 40px;
+  margin-left: 20px; }
+
+.sc .sc3 .sc32 {
+  border: 1px solid red;
+  font-size: 14px;
+  height: 20px;
+  margin: 10px 0 0 30px;
+  width: 50px;
+  color: red;
+  text-align: center;
+  float: left; }
+
+.sc .sc3 a {
+  font-size: 14px;
+  float: left;
+  line-height: 40px;
+  margin-left: 20px;
+  color: blue; }
+
+.sc .sc40 {
+  margin-top: 20px;
+  width: 1090px;
+  height: 160px;
+  border: 1px solid #eee; }
+
+.sc .sc40 input {
+  margin: 73px 0 0 20px;
+  float: left; }
+
+.sc .sc40 img {
+  border: 1px solid #eee;
+  background: #f4f4f4;
+  height: 100px;
+  width: 100px;
+  margin: 20px 0 0 20px;
+  float: left; }
+
+.sc .sc40 .sc41 {
+  height: 100px;
+  width: 300px;
+  margin: 20px 0 0 20px;
+  float: left;
+  overflow: hidden; }
+
+.sc .sc40 .sc41 span {
+  font-size: 14px;
+  margin-top: 20px;
+  display: block; }
+
+.sc .sc40 .sc41 select {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  border: none; }
+
+.sc .sc40 h1 {
+  font-size: 14px;
+  line-height: 160px;
+  margin-left: 70px;
+  float: left; }
+
+.sc .sc40 .sc42 {
+  border: 1px solid #eee;
+  height: 20px;
+  width: 80px;
+  float: left;
+  font-size: 20px;
+  margin: 70px 0 0 120px; }
+
+.sc .sc40 .sc42 div:nth-child(1) {
+  border-right: 1px solid #eee;
+  float: left;
+  width: 20px;
+  line-height: 20px;
+  text-align: center; }
+
+.sc .sc40 .sc42 div:nth-child(2) {
+  float: left;
+  width: 38px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px; }
+
+.sc .sc40 .sc42 div:nth-child(3) {
+  border-left: 1px solid #eee;
+  float: left;
+  width: 20px;
+  line-height: 20px;
+  text-align: center; }
+
+.sc .sc40 h2 {
+  font-size: 14px;
+  line-height: 160px;
+  margin-left: 120px;
+  float: left; }
+
+.sc .sc40 .sc43 {
+  height: 50px;
+  width: 80px;
+  float: left;
+  font-size: 14px;
+  margin: 55px 0 0 10px; }
+
+.sc .sc40 .sc43 h3 a {
+  font-size: 14px;
+  color: #999; }
+
+.sc .sc4 .sc43 h4 {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #999; }
+
+.sc .sc5 {
+  border: 1px solid #eee;
+  height: 60px;
+  width: 1090px;
+  margin-top: 20px;
+  background: #fffbf0; }
+
+.sc .sc5 input {
+  margin: 23px 0 0 20px;
+  float: left; }
+
+.sc .sc5 h4 {
+  font-size: 14px;
+  line-height: 60px;
+  margin-left: 20px;
+  float: left; }
+
+.sc .sc5 h1 {
+  font-size: 14px;
+  line-height: 60px;
+  margin-left: 40px;
+  float: left; }
+
+.sc .sc5 h2 {
+  font-size: 14px;
+  line-height: 60px;
+  margin-left: 40px;
+  float: left; }
+
+.sc .sc5 .sc51 {
+  float: left;
+  height: 40px;
+  width: 200px;
+  margin: 10px 0 0 210px;
+  border-right: 1px solid #eee; }
+
+.sc .sc5 .sc51 span {
+  font-size: 12px;
+  color: #999; }
+
+.sc .sc5 .sc51 i {
+  font-size: 12px;
+  color: #999; }
+
+.sc .sc5 .sc52 {
+  float: left;
+  height: 40px;
+  /*width:180px;*/
+  margin: 10px 0 0 20px; }
+
+.sc .sc5 .sc52 span {
+  font-size: 12px; }
+
+.sc .sc5 .sc52 b {
+  font-size: 18px;
+  color: red;
+  font-weight: 900;
+  /*float: right;*/ }
+
+.sc .sc5 .sc52 i {
+  font-size: 12px;
+  float: right;
+  display: block;
+  color: red; }
+
+.sc .sc5 .sc53 {
+  color: #fff;
+  background: #b4a078;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  width: 120px;
+  float: right;
+  margin-left: 20px; }

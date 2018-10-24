@@ -1,22 +1,19 @@
-[
-	{
-		"goods":"网易制造智能随行杯",
-		"price":"￥155",
-		"img":"images/s12.png"
+[{
+	"goods":"网易制造智能随行杯",
+	"price":"155",
+	"img":"images/s12.png"
+	},
+{
+	"goods":"网易制造智能随行杯",
+	"price":"155",
+	"img":"images/s12.png"
 	},
 	{
-		"goods":"网易制造智能随行杯",
-		"price":"￥155",
-		"img":"images/s12.png"
-	},
-	{
-		"goods":"网易制造智能随行杯",
-		"price":"￥155",
-		"img":"images/s12.png"
-	},
-	{
-		"goods":"网易制造智能随行杯",
-		"price":"￥155",
-		"img":"images/s12.png"
-	}
-]
+	"goods":"网易制造智能随行杯",
+	"price":"155",
+	"img":"images/s12.png"
+	},{
+	"goods":"网易制造智能随行杯",
+	"price":"155",
+	"img":"images/s12.png"
+	}]

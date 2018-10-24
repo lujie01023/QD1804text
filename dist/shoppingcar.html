@@ -7,25 +7,26 @@
 		<link rel="stylesheet" href="css/reset.min.css">
 		<link rel="stylesheet" href="css/header-footer.min.css">
 		<link rel="stylesheet" href="iconfont/iconfont.css"">
-		<link rel="stylesheet" href="iconfont2/iconfont.css">
+		<link rel="stylesheet" href="css/VOICE.min.css">
+		<link rel="stylesheet" href="css/shoppingcar.min.css">
+		<link rel="stylesheet" href="iconfont1/iconfont.css">
 		<script src = "js/jquery-1.10.1.min.js"></script>
 		<script type = "text/javascript" src = "js/startMove.js"></script>
 		<script src="js/scroll.js"></script>
-		<script src="js/header.js"></script>	
+		<script src="js/header.js"></script>
+
 		<script src="js/s1.js"></script>
 		<script src="js/jquery-1.11.3.js"></script>
 		<script src ="js/s12.js"></script>
 		<script src = "js/index.js"></script>
 		<script src ="js/jquery.cookie.js"></script>
-		<script src = "js/ajax.js">	</script>
-		<script src = "js/cookie.js"></script>
-		<script src ="js/tool.js"></script>
-		<script src = "js/login.js"></script>
+		<script src = "js/ajax.js"></script>
+		<!-- <script src = "js/VOICE.js"></script> -->
+		<script src ="js/cookie.js"></script>
+		<script src ="js/shoppingcar.js"></script>
 	</head>
 	<body>
-		
-				
-			
+
 
 			<!-- header -->
 		<div class = "header0">
@@ -38,8 +39,8 @@
 				</ul>
 				</div>
 				<ul class="H_right">
-					<li id="login1">登录</li>
-					<li id="login2">注册</li>
+					<li><a href="">登录</a></li>
+					<li><a href="">注册</a></li>
 					<li><a href="">我的订单</a></li>
 					<li><a href="">会员</a></li>
 					<li><a href="">甄选家</a></li>
@@ -61,10 +62,10 @@
 		</div>
 		<div class="nav1" id="nav1">
 			<div class="nav12">
-				<div class="cirle1">0</div>
+					<div class="cirle1">0</div>
 				<img src="images/logo_11.jpg" alt="">
 				<ul class="N_bottom_ul" >
-					<li ><a href="">首页</a></li>
+					<li ><a href="index.html">首页</a></li>
 					<li id="liol1" ><a  href="">居家</a>
 						
 					</li>
@@ -84,7 +85,7 @@
 				</div>
 			</div>
 		
-		
+		</div>
 
 		<!-- nav -->
 		<div class="nav0">
@@ -101,7 +102,7 @@
 				</div>
 				<div class="N_bottom" >
 				<ul class="N_bottom_ul" >
-					<li id=""><a href="">首页</a></li>
+					<li ><a href="index.html">首页</a></li>
 					<li id="liol" ><a  href="">居家</a>
 						
 					</li>
@@ -120,68 +121,48 @@
 				</div>
 			</nav>
 		</div>
-
-		
-		<!-- banner -->
-		<div class="banner" id="banner">
-		<div class="scroll" id="play">
-
-			<ol>
-	    	<li class="active"></li>
-	        <li></li>
-	        <li></li>
-	        <li></li>
-	        <li></li>
-	    </ol>
-		<ul>
-			<li><a href=""><img src="images/scroll_14.jpg" alt="广告一" /></a></li>
-			<li><a href=""><img src="images/scroll_15.jpg" alt="广告二" /></a></li>
-			<li><a href=""><img src="images/scroll_16.jpg" alt="广告三" /></a></li>
-			<li><a href=""><img src="images/scroll_17.jpg" alt="广告四" /></a></li>
-			<li><a href=""><img src="images/scroll_18.jpg" alt="广告五" /></a></li>
-			<li><a href=""><img src="images/scroll_14.jpg" alt="广告一" /></a></li>
-
-		</ul>
-			</div>
-			<div id="bannerRight">></div>	
-			<div id="bannerLeft"><</div>
-
-		
-		</div>	
-
-
 		<!-- content -->
-		<section>
-			<div class="s01">
-				<div class="s1">
-					<div class="s1_top" id="s1_top">
-						<h1>品牌制造商</h1>
-						<span>工厂直达消费者，剔除品牌溢价</span>
-						<div class="s1_top_right">更多制造商></div>
-					</div>	
-					<div class="s1_bottom">
-						
+			<div class="sc_box">
+				<div class="sc">
+					<div class="sc1"> <span class="iconfont">&#xe60f;</span><h1>购物车可领优惠券</h1><div>查看优惠券</div></div>
+					<div class="sc2">
+						<input type="checkbox" >
+						<ul>
+							<li>全选</li>
+							<li>商品信息</li>
+							<li>单价</li>
+							<li>数量</li>
+							<li>小计</li>
+							<li>操作</li>
+						</ul>
+					</div>
+					<div class="sc3">
+						<div class="sc31">全场加价购</div>
+						<h1>已满足【满130元可超级换购】</h1>
+						<div class="sc32">去换购</div>
+						<a href="electrical.html">继续凑单>></a>
+					</div>
+					<div class="sc4" id="sc4">
+					
+					</div>
+					<div class="sc5">
+						<input type="checkbox">
+						<h4>已选（0）</h4>
+						<h1>批量删除</h1>
+						<h2>清除失效物品</h2>
+						<div class="sc51">
+							<span id="Total">商品合计&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+							<i>活动优惠：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-￥130.00</i>
+						</div>
+						<h3></h3>
+						<div class="sc52">
+							<span>应付总额：</span><b id="Total1"></b><br>
+							<i>已满足免邮条件></i>
+						</div>
+						<div class="sc53">下单</div>
 					</div>
 				</div>
-				<div class="s12">
-					<div class="s12_top" id="s12_top">
-						<h1>品牌制造商</h1>
-						<span>工厂直达消费者，剔除品牌溢价</span>
-						<div class="s12_top_right">更多制造商></div>
-					</div>
-					<div class="s12_bottom">
-							<ul id="goods2_ul">
-								
-							
-							</ul>
-					</div>
-				
-				</div>
-			<div class="s02" id="s02">
-				
 			</div>
-			
-		</section>
 		<!-- footer -->
 		<footer>
 			<div class="F_top_box">
@@ -240,38 +221,6 @@
 				<li><b class="iconfont">&#xe602;</b><br><i>在线客服</i></li>
 			</ul>
 		</div>
-
-	<div class="admin" class="admin1" id = 'loginMsg' style="display:none" >
-		<div class="adX" id="adX">×</div>
-		<ul>
-		<li><a href="">手机号登陆</a></li>
-		<li><a href="">邮箱登录</a></li></ul>
-		<input type="text" id="username1"  name = 'username' placeholder="请输入手机号码">
-		<input type="password" id="password1" name = 'password' placeholder="请输入密码">
-		<div class="ada" id = 'login'>登录</div>
-		<div class="adb">
-			<span class="iconfont">&#xe69a;&nbsp;&nbsp;&#xf216;&nbsp;&nbsp;&#xe60f;&nbsp;&nbsp;&#xe672;</span><i id="log1">注册</i><b>忘记密码？</b>
-
-		</div>
-	</div>
-
-	<div class="admin" class="admin1" id = 'registerMsg' style="display:none" >
-		<div class="adX" id="adX1">×</div>
-		<ul>
-		<li><a href="">手机号注册</a></li>
-		</ul>
-		<input type="text" id="username2"  name = 'username' placeholder="请输入手机号码">
-		<input type="password" id="password11" name = 'password' placeholder="请输入密码">
-		<input type="password"  id="repassword1" name = 'repassword' placeholder="请再次输入密码">
-		<div class="ada" id = 'register'>注册</div>
-		<div class="adb">
-			<span class="iconfont">&#xe69a;&nbsp;&nbsp;&#xf216;&nbsp;&nbsp;&#xe60f;&nbsp;&nbsp;&#xe672;</span><i id="reg1">立即登录</i><b>忘记密码？</b>
-
-		</div>
-	</div>
-
-	<div class="bigbox" id="bigbox" style="display:none">
-	</div>
 	</body>	
 
 

@@ -54,6 +54,25 @@
 			}, function(){
 				timer = setInterval(timerInner, 2000);
 			})
+
+
+				$("#bannerLeft").click(function(){
+				iNow =iNow - 1;
+				if (iNow <= 0) {
+					iNow = 4;
+				}
+				clearInterval(timer);
+				tab();
+				
+			})
+			$("#bannerRight").click(function(){
+				iNow =iNow + 1;
+				if (iNow > 4 ) {
+					iNow = 0;
+				}
+				clearInterval(timer);
+				tab();
+			})
 		})
 	
 
